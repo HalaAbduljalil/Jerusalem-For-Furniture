@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="902.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.kitchens">
+   <children>
+      <ScrollPane layoutX="3.0" layoutY="3.0" prefHeight="620.0" prefWidth="902.0">
+         <content>
+            <AnchorPane fx:id="shelves" prefHeight="874.0" prefWidth="902.0">
+               <children>
+                  <Label layoutX="112.0" prefHeight="64.0" prefWidth="479.0" text="our kitchens..." textFill="#8f6f04">
+                     <font>
+                        <Font name="Bell MT Italic" size="47.0" />
+                     </font>
+                  </Label>
+                  <HBox fx:id="kitchen2" layoutX="44.0" layoutY="297.0" prefHeight="164.0" prefWidth="738.0" style="-fx-border-color: #8f6f04;">
+                     <children>
+                        <VBox prefHeight="176.0" prefWidth="143.0">
+                           <children>
+                              <ImageView fitHeight="179.0" fitWidth="256.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@kitchen4.PNG" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="171.0" prefWidth="138.0">
+                           <children>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="wood type:">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="10.0" />
+                                 </padding>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="marble type : ">
+                                 <padding>
+                                    <Insets bottom="10.0" />
+                                 </padding>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="kitchen color">
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="#shelves:">
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="price:">
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="171.0" prefWidth="165.0">
+                           <children>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="sheep">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="3.0" />
+                                 </padding>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="wool">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="3.0" />
+                                 </padding>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="white">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="20.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="3.0" />
+                                 </padding>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="12">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="8.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="3.0" />
+                                 </padding>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="18000">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="3.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="171.0" prefWidth="146.0">
+                           <children>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="electricaltype:">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="10.0" />
+                                 </padding>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="width:">
+                                 <padding>
+                                    <Insets bottom="10.0" />
+                                 </padding>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="hight:">
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="CODE :">
+                                 <padding>
+                                    <Insets left="10.0" right="5.0" />
+                                 </padding>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="200.0" prefWidth="92.0">
+                           <children>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="beko">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="3.0" />
+                                 </padding>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="6">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="3.0" />
+                                 </padding>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="7">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="3.0" />
+                                 </padding>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="6">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets bottom="3.0" left="10.0" />
+                                 </padding>
+                                 <VBox.margin>
+                                    <Insets top="15.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="200.0" prefWidth="100.0" />
+                        <HBox prefHeight="197.0" prefWidth="116.0" style="-fx-alignment: RIGHT;">
+                           <children>
+                              <ImageView fx:id="putlove2" fitHeight="41.0" fitWidth="40.0" onMousePressed="#PUTLOVE">
+                                 <image>
+                                    <Image url="@brown-heart.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="BUYIT1" fitHeight="40.0" fitWidth="42.0" onMousePressed="#BUYIT">
+                                 <image>
+                                    <Image url="@empty-box.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <opaqueInsets>
+                              <Insets bottom="20.0" left="20.0" top="20.0" />
+                           </opaqueInsets>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <HBox fx:id="kitchen3" layoutX="43.0" layoutY="481.0" prefHeight="164.0" prefWidth="738.0" style="-fx-border-color: #8f6f04;">
+                     <children>
+                        <VBox prefHeight="176.0" prefWidth="143.0">
+                           <children>
+                              <ImageView fitHeight="179.0" fitWidth="267.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@kitchen5.PNG" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="179.0" prefWidth="148.0">
+                           <children>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="wood type:">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="10.0" />
+                                 </padding>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="marble type : ">
+                                 <padding>
+                                    <Insets bottom="10.0" />
+                                 </padding>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="kitchen color">
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="#shelves:">
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="price:">
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="179.0" prefWidth="160.0">
+                           <children>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="lamb">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="3.0" />
+                                 </padding>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="wool">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="15.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="3.0" />
+                                 </padding>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="blue &amp; white">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="18.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="3.0" />
+                                 </padding>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="15">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="8.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="3.0" />
+                                 </padding>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="14000">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="3.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="179.0" prefWidth="165.0">
+                           <children>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="electricaltype:">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="10.0" />
+                                 </padding>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="width:">
+                                 <padding>
+                                    <Insets bottom="10.0" />
+                                 </padding>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="hight:">
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="CODE :">
+                                 <padding>
+                                    <Insets left="10.0" right="5.0" />
+                                 </padding>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="179.0" prefWidth="141.0">
+                           <children>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="samsung">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="3.0" />
+                                 </padding>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="7">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="16.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="3.0" />
+                                 </padding>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="4">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="16.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="3.0" />
+                                 </padding>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="7">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets bottom="3.0" left="10.0" />
+                                 </padding>
+                                 <VBox.margin>
+                                    <Insets top="5.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <HBox prefHeight="197.0" prefWidth="116.0" style="-fx-alignment: RIGHT;">
+                           <children>
+                              <ImageView fx:id="putlove3" fitHeight="41.0" fitWidth="40.0" onMousePressed="#PUTLOVE">
+                                 <image>
+                                    <Image url="@brown-heart.png" />
+                                 </image>
+                              </ImageView>
+                              <VBox prefHeight="200.0" prefWidth="100.0" />
+                              <ImageView fx:id="BUYIT11" fitHeight="40.0" fitWidth="42.0" onMousePressed="#BUYIT">
+                                 <image>
+                                    <Image url="@empty-box.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <opaqueInsets>
+                              <Insets bottom="20.0" left="20.0" top="20.0" />
+                           </opaqueInsets>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <ImageView fx:id="CLOSE" fitHeight="30.0" fitWidth="67.0" layoutX="-1.0" layoutY="-1.0" onMousePressed="#CLOSE" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@close-window(13).png" />
+                     </image>
+                  </ImageView>
+                  <HBox fx:id="kitchen1" layoutX="44.0" layoutY="98.0" prefHeight="184.0" prefWidth="737.0" style="-fx-border-color: #8f6f04;">
+                     <children>
+                        <VBox prefHeight="176.0" prefWidth="143.0">
+                           <children>
+                              <ImageView fitHeight="179.0" fitWidth="246.0">
+                                 <image>
+                                    <Image url="@kitchen3.PNG" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="182.0" prefWidth="145.0">
+                           <children>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="wood type:">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="10.0" />
+                                 </padding>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="marble type : ">
+                                 <padding>
+                                    <Insets bottom="10.0" />
+                                 </padding>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="86.0" text="kitchen color">
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="#shelves:">
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="price:">
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="182.0" prefWidth="156.0">
+                           <children>
+                              <Label fx:id="woodtype" prefHeight="18.0" prefWidth="122.0" text="ash">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="2.0" />
+                                 </padding>
+                              </Label>
+                              <Label fx:id="mtype" prefHeight="18.0" prefWidth="122.0" text="carrara">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="4.0" top="4.0" />
+                                 </padding>
+                              </Label>
+                              <Label fx:id="kitchencolor" prefHeight="18.0" prefWidth="122.0" text="black &amp; white">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="12.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="5.0" top="4.0" />
+                                 </padding>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="12">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="8.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="2.0" />
+                                 </padding>
+                              </Label>
+                              <Label fx:id="price" prefHeight="18.0" prefWidth="122.0" text="20000">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="8.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="182.0" prefWidth="141.0">
+                           <children>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="electricaltype:">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="10.0" />
+                                 </padding>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="width:">
+                                 <padding>
+                                    <Insets bottom="10.0" />
+                                 </padding>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="hight:">
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="CODE :">
+                                 <VBox.margin>
+                                    <Insets bottom="15.0" top="10.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets left="10.0" right="5.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="200.0" prefWidth="92.0">
+                           <children>
+                              <Label fx:id="electricaltype" prefHeight="18.0" prefWidth="122.0" text="LG">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="3.0" />
+                                 </padding>
+                              </Label>
+                              <Label fx:id="width" prefHeight="18.0" prefWidth="122.0" text="5">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="15.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="3.0" />
+                                 </padding>
+                              </Label>
+                              <Label fx:id="hight" prefHeight="18.0" prefWidth="122.0" text="6">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="12.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="3.0" />
+                                 </padding>
+                              </Label>
+                              <Label fx:id="hight2" prefHeight="18.0" prefWidth="122.0" text="5">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets bottom="3.0" left="10.0" />
+                                 </padding>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="200.0" prefWidth="100.0" />
+                        <HBox prefHeight="197.0" prefWidth="116.0" style="-fx-alignment: RIGHT;">
+                           <children>
+                              <ImageView fx:id="putlove1" fitHeight="41.0" fitWidth="40.0" onMousePressed="#PUTLOVE">
+                                 <image>
+                                    <Image url="@brown-heart.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="BUYIT" fitHeight="40.0" fitWidth="42.0" onMousePressed="#BUYIT">
+                                 <image>
+                                    <Image url="@empty-box.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <opaqueInsets>
+                              <Insets bottom="20.0" left="20.0" top="20.0" />
+                           </opaqueInsets>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <ImageView fx:id="refresh11" fitHeight="47.0" fitWidth="54.0" layoutX="823.0" layoutY="71.0" onMousePressed="#refresh" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@synchronize.png" />
+                     </image>
+                  </ImageView>
+                  <HBox fx:id="hboxyy" layoutX="47.0" layoutY="673.0" prefHeight="164.0" prefWidth="738.0" style="-fx-border-color: #8f6f04;">
+                     <children>
+                        <VBox prefHeight="176.0" prefWidth="143.0">
+                           <children>
+                              <ImageView fitHeight="179.0" fitWidth="267.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@kitchen6.PNG" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="179.0" prefWidth="170.0">
+                           <children>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="wood type:">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="10.0" />
+                                 </padding>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="marble type : ">
+                                 <padding>
+                                    <Insets bottom="10.0" />
+                                 </padding>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="kitchen color">
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="#shelves:">
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="price:">
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="179.0" prefWidth="160.0">
+                           <children>
+                              <Label fx:id="woodtype1" prefHeight="18.0" prefWidth="122.0" text="teak">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="3.0" />
+                                 </padding>
+                              </Label>
+                              <Label fx:id="marbletype1" prefHeight="18.0" prefWidth="122.0" text="calcatta">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="15.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="3.0" />
+                                 </padding>
+                              </Label>
+                              <Label fx:id="kitchencolor1" prefHeight="18.0" prefWidth="122.0" text="brown">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="18.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="3.0" />
+                                 </padding>
+                              </Label>
+                              <Label fx:id="price1" prefHeight="18.0" prefWidth="122.0" text="15">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="8.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="3.0" />
+                                 </padding>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="20000">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="5.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="3.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="179.0" prefWidth="165.0">
+                           <children>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="electricaltype:">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="10.0" />
+                                 </padding>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="width:">
+                                 <padding>
+                                    <Insets bottom="10.0" />
+                                 </padding>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="hight:">
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                              <Label prefHeight="18.0" prefWidth="122.0" text="CODE :">
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets left="10.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="179.0" prefWidth="141.0">
+                           <children>
+                              <Label fx:id="electricaltype1" prefHeight="18.0" prefWidth="122.0" text="samsung">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="3.0" />
+                                 </padding>
+                              </Label>
+                              <Label fx:id="width1" prefHeight="18.0" prefWidth="122.0" text="5">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="16.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="3.0" />
+                                 </padding>
+                              </Label>
+                              <Label fx:id="hight1" prefHeight="18.0" prefWidth="122.0" text="6">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="16.0" />
+                                 </VBox.margin>
+                                 <padding>
+                                    <Insets bottom="3.0" />
+                                 </padding>
+                              </Label>
+                              <Label fx:id="hight11" prefHeight="18.0" prefWidth="122.0" text="8">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets bottom="3.0" left="10.0" />
+                                 </padding>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="200.0" prefWidth="100.0" />
+                        <HBox prefHeight="197.0" prefWidth="116.0" style="-fx-alignment: RIGHT;">
+                           <children>
+                              <ImageView fx:id="PUTLOVE111" fitHeight="41.0" fitWidth="40.0" onMousePressed="#PUTLOVE">
+                                 <image>
+                                    <Image url="@brown-heart.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="BUYIT111" fitHeight="40.0" fitWidth="42.0" onMousePressed="#BUYIT">
+                                 <image>
+                                    <Image url="@empty-box.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <opaqueInsets>
+                              <Insets bottom="20.0" left="20.0" top="20.0" />
+                           </opaqueInsets>
+                        </HBox>
+                     </children>
+                  </HBox>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <Button layoutX="815.0" layoutY="32.0" mnemonicParsing="false" onAction="#logout" prefHeight="34.0" prefWidth="61.0" style="-fx-background-color: #8f6f04;" text="back" textFill="#f8f8f8">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="611.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.tableorderController">
+   <children>
+      <TableView fx:id="employeeTable" prefHeight="510.0" prefWidth="611.0">
+         <columns>
+            <TableColumn fx:id="firstNameColumn" prefWidth="132.00000607967377" text="name " />
+            <TableColumn fx:id="addresscolumn" prefWidth="118.39996337890625" text="address" />
+            <TableColumn fx:id="ordercolumn" prefWidth="90.4000244140625" sortType="DESCENDING" text="order number " />
+            <TableColumn fx:id="emailColumn" prefWidth="138.39996337890625" text="Email" />
+            <TableColumn fx:id="paymentmethodcolumn" prefWidth="132.79995727539062" text="payment method" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

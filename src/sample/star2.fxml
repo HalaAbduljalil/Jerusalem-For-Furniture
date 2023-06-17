@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="173.0" prefWidth="580.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="stary1" layoutX="25.0" layoutY="43.0" >
+         <image>
+            <Image url="@star-emoji.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stary2" layoutX="135.0" layoutY="43.0" >
+         <image>
+            <Image url="@star-emoji.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="starno1" fitHeight="96.0" fitWidth="96.0" layoutX="459.0" layoutY="43.0" >
+         <image>
+            <Image url="@filled-star.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="starno11" fitHeight="96.0" fitWidth="96.0" layoutX="349.0" layoutY="43.0" >
+         <image>
+            <Image url="@filled-star.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="starno111" fitHeight="96.0" fitWidth="96.0" layoutX="242.0" layoutY="43.0" >
+         <image>
+            <Image url="@filled-star.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

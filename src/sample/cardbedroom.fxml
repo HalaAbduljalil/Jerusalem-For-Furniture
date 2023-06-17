@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="197.0" prefWidth="739.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.cardbedoomController">
+   <children>
+      <HBox fx:id="HBOX" layoutX="2.0" layoutY="4.0" prefHeight="182.0" prefWidth="735.0" style="-fx-border-color: #8f6f04;">
+         <children>
+            <VBox prefHeight="176.0" prefWidth="143.0">
+               <children>
+                  <ImageView fx:id="imageview1" fitHeight="179.0" fitWidth="246.0">
+                     <image>
+                        <Image url="@bedroom1.PNG" />
+                     </image>
+                  </ImageView>
+               </children>
+            </VBox>
+            <VBox prefHeight="181.0" prefWidth="124.0">
+               <children>
+                  <Label prefHeight="18.0" prefWidth="122.0" text="room area">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="10.0" />
+                     </padding>
+                  </Label>
+                  <Label prefHeight="18.0" prefWidth="122.0" text="num of frames ">
+                     <padding>
+                        <Insets bottom="10.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label prefHeight="18.0" prefWidth="122.0" text="carbit color">
+                     <VBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label prefHeight="18.0" prefWidth="122.0" text="closet size">
+                     <VBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label prefHeight="18.0" prefWidth="122.0" text="curtains color:">
+                     <VBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="92.0">
+               <children>
+                  <Label fx:id="roomareaL" prefHeight="18.0" prefWidth="122.0" text="rose wood ">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="12.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="numframesL" prefHeight="18.0" prefWidth="122.0" text="wool">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="12.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="carbitcolorL" prefHeight="18.0" prefWidth="122.0" text="6740$">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="12.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="closetL" prefHeight="18.0" prefWidth="122.0" text="16 ">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="12.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="curtainsL" prefHeight="18.0" prefWidth="122.0" text="ivory ">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="12.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="2.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="181.0" prefWidth="122.0">
+               <children>
+                  <Label prefHeight="18.0" prefWidth="122.0" text="bed color">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="10.0" />
+                     </padding>
+                  </Label>
+                  <Label prefHeight="18.0" prefWidth="122.0" text="bed size">
+                     <padding>
+                        <Insets bottom="10.0" />
+                     </padding>
+                     <VBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label prefHeight="18.0" prefWidth="122.0" text="lights count ">
+                     <VBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label prefHeight="18.0" prefWidth="122.0" text="price:">
+                     <VBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="92.0">
+               <children>
+                  <Label fx:id="bedcolorL" prefHeight="18.0" prefWidth="122.0" text="rose wood ">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="6.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="bedsizeL" prefHeight="18.0" prefWidth="122.0" text="wool">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="6.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="lightsL" prefHeight="18.0" prefWidth="122.0" text="6740$">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="6.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="priceL" prefHeight="18.0" prefWidth="122.0" text="16 ">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="6.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" />
+            <HBox prefHeight="197.0" prefWidth="116.0" style="-fx-alignment: RIGHT;">
+               <children>
+                  <ImageView fx:id="SEEMORE2" fitHeight="32.0" fitWidth="31.0" onMousePressed="#SEEMORE" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@plus.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="PUTLOVE2" fitHeight="41.0" fitWidth="40.0" onMousePressed="#PUTLOVE">
+                     <image>
+                        <Image url="@brown-heart.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="BUYIT2" fitHeight="40.0" fitWidth="42.0" onMousePressed="#BUYIT">
+                     <image>
+                        <Image url="@empty-box.png" />
+                     </image>
+                  </ImageView>
+               </children>
+               <opaqueInsets>
+                  <Insets bottom="20.0" left="20.0" top="20.0" />
+               </opaqueInsets>
+            </HBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

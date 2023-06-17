@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="548.0" prefWidth="799.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DdController">
+   <children>
+      <ImageView fitHeight="548.0" fitWidth="799.0">
+         <image>
+            <Image url="@tree.PNG" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="259.0" layoutY="175.0" opacity="0.66" prefHeight="329.0" prefWidth="274.0" style="-fx-background-color: #BF360C;">
+         <children>
+            <AnchorPane layoutX="8.0" layoutY="7.0" opacity="0.9" prefHeight="315.0" prefWidth="259.0" style="-fx-background-color: #FAFAFA;">
+               <children>
+                  <Label layoutX="80.0" layoutY="7.0" text="login" textFill="#793002">
+                     <font>
+                        <Font name="Algerian" size="36.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="LOGINBUTTON" layoutX="70.0" layoutY="188.0" mnemonicParsing="false" onAction="#LOGINBUTTONHANDLE" prefHeight="32.0" prefWidth="100.0" style="-fx-background-color: #FFAB40;" text="log in" />
+                  <Button fx:id="RIGISTER" layoutX="155.0" layoutY="252.0" mnemonicParsing="false" onAction="#registernow" style="-fx-background-color: #FFAB40;" text="register now" />
+                  <Label layoutX="6.0" layoutY="259.0" text="do not have an account ?" />
+                  <Label fx:id="LOGINMASSAGE" layoutX="12.0" layoutY="158.0" textFill="#f22323">
+                     <font>
+                        <Font name="Bell MT" size="15.0" />
+                     </font>
+                  </Label>
+                  <PasswordField fx:id="PASSWORD" layoutX="43.0" layoutY="114.0" onAction="#PASSWORD" prefHeight="27.0" prefWidth="152.0" promptText="Password" style="-fx-border-color: #793002; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px;">
+                     <cursor>
+                        <Cursor fx:constant="W_RESIZE" />
+                     </cursor>
+                     <effect>
+                        <ColorAdjust />
+                     </effect>
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </PasswordField>
+                  <TextField fx:id="USERNAME" layoutX="43.0" layoutY="70.0" onAction="#USERNAME" prefHeight="27.0" prefWidth="152.0" promptText="User name" style="-fx-border-color: #793002; -fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px;">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <ImageView fx:id="CLOSE" fitHeight="30.0" fitWidth="67.0" layoutX="7.0" layoutY="8.0" onMousePressed="#CLOSE" pickOnBounds="true" preserveRatio="true">
+         <Image url="@close-window(13).png " />
+      </ImageView>
+   </children>
+</AnchorPane>

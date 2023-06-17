@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="611.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.tableemployeeController">
+   <children>
+      <TableView fx:id="employeeTable" prefHeight="510.0" prefWidth="611.0">
+         <columns>
+            <TableColumn fx:id="firstNameColumn" prefWidth="75.0" text="first name" />
+            <TableColumn fx:id="lastNameColumn" prefWidth="75.0" text="last name " />
+            <TableColumn fx:id="emailColumn" prefWidth="75.0" sortType="DESCENDING" text="email" />
+            <TableColumn fx:id="passwordColumn" prefWidth="75.0" text="password" />
+            <TableColumn fx:id="positionColumn" prefWidth="75.0" text="position" />
+            <TableColumn fx:id="salaryColumn" prefWidth="75.0" text="salary" />
+            <TableColumn fx:id="cityColumn" prefWidth="75.0" text="city " />
+            <TableColumn fx:id="streetColumn" prefWidth="75.0" text="street" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

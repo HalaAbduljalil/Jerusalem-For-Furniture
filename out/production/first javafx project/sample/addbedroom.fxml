@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="501.0" prefWidth="648.0" style="-fx-background-color: #EDE7F6; -fx-border-color: #E65100;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.addbedroomController">
+   <children>
+      <TextField fx:id="ROOMAREA" layoutX="140.0" layoutY="62.0" prefHeight="42.0" prefWidth="141.0" style="-fx-background-color: transparent; -fx-border-color: #E65100; -fx-border-width: 0px 0px 2px 0px;">
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </TextField>
+      <Label layoutX="43.0" layoutY="71.0" text="room area">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="234.0" layoutY="14.0" text="Add Bedroom">
+         <font>
+            <Font name="Bell MT" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="122.0" text="num of frames ">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="186.0" text="carbit color">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="325.0" layoutY="71.0" text="bed color">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="NUMOFFRAMEST" layoutX="140.0" layoutY="113.0" prefHeight="42.0" prefWidth="141.0" style="-fx-background-color: transparent; -fx-border-color: #E65100; -fx-border-width: 0px 0px 2px 0px;">
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="CARBITCOLORT" layoutX="140.0" layoutY="177.0" prefHeight="42.0" prefWidth="141.0" style="-fx-background-color: transparent; -fx-border-color: #E65100; -fx-border-width: 0px 0px 2px 0px;">
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="CLOSETT" layoutX="140.0" layoutY="232.0" prefHeight="42.0" prefWidth="141.0" style="-fx-background-color: transparent; -fx-border-color: #E65100; -fx-border-width: 0px 0px 2px 0px;">
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </TextField>
+      <Label layoutX="317.0" layoutY="122.0" text="bed size">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="BEDSIZET" layoutX="427.0" layoutY="113.0" prefHeight="42.0" prefWidth="141.0" style="-fx-background-color: transparent; -fx-border-color: #E65100; -fx-border-width: 0px 0px 2px 0px;">
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="LIGHTST" layoutX="427.0" layoutY="179.0" prefHeight="42.0" prefWidth="141.0" style="-fx-background-color: transparent; -fx-border-color: #E65100; -fx-border-width: 0px 0px 2px 0px;">
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </TextField>
+      <Label layoutX="154.0" layoutY="306.0" text="curtains color">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="BEDCOLORT" layoutX="427.0" layoutY="62.0" prefHeight="42.0" prefWidth="141.0" style="-fx-background-color: transparent; -fx-border-color: #E65100; -fx-border-width: 0px 0px 2px 0px;">
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </TextField>
+      <Label layoutX="33.0" layoutY="241.0" text="closet size">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="CURTAINSCOLORT" layoutX="292.0" layoutY="297.0" prefHeight="42.0" prefWidth="141.0" style="-fx-background-color: transparent; -fx-border-color: #E65100; -fx-border-width: 0px 0px 2px 0px;">
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </TextField>
+      <Label layoutX="329.0" layoutY="241.0" text="price">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="305.0" layoutY="186.0" text="lights number">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="PRICET" layoutX="420.0" layoutY="232.0" prefHeight="42.0" prefWidth="141.0" style="-fx-background-color: transparent; -fx-border-color: #E65100; -fx-border-width: 0px 0px 2px 0px;">
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </TextField>
+      <Button layoutX="267.0" layoutY="434.0" mnemonicParsing="false" onAction="#ADDTEST" prefHeight="34.0" prefWidth="99.0" style="-fx-background-color: #E65100;" text="add" textFill="#f8f8f8">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="RIGESTRATIONMASSAGE" layoutX="120.0" layoutY="401.0">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="251.0" layoutY="375.0" text="id">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="IDT" layoutX="305.0" layoutY="354.0" prefHeight="42.0" prefWidth="40.0" style="-fx-background-color: transparent; -fx-border-color: #E65100; -fx-border-width: 0px 0px 2px 0px;">
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

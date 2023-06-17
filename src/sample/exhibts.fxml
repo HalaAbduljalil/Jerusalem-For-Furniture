@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="657.0" prefWidth="1004.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="663.0" prefWidth="1004.0">
+         <children>
+            <ImageView fitHeight="663.0" fitWidth="1004.0" layoutX="-2.0">
+               <image>
+                  <Image url="@sss.PNG" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="-3.0" opacity="0.82" prefHeight="68.0" prefWidth="1004.0" style="-fx-background-color: #BF360C;">
+               <children>
+                  <Label layoutX="319.0" layoutY="14.0" text="exhibts" textFill="#f5f2f2">
+                     <font>
+                        <Font name="Algerian" size="36.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="663.0" prefWidth="255.0" style="-fx-background-color: #FFE0B2;">
+               <children>
+                  <AnchorPane opacity="0.82" prefHeight="663.0" prefWidth="54.0" style="-fx-background-color: #BF360C;">
+                     <children>
+                        <ImageView fitHeight="46.0" fitWidth="46.0" layoutX="4.0" layoutY="6.0">
+                           <image>
+                              <Image url="menu.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="46.0" fitWidth="40.0" layoutX="7.0" layoutY="598.0">
+                           <image>
+                              <Image url="back-arrow.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <Button layoutX="54.0" layoutY="122.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="201.0" style="-fx-background-color: #FFE0B2;" text="HOME">
+                     <font>
+                        <Font name="Baskerville Old Face" size="24.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="54.0" layoutY="179.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="201.0" style="-fx-background-color: #FFE0B2;" text="EMPLOYEES">
+                     <font>
+                        <Font name="Baskerville Old Face" size="24.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="54.0" layoutY="251.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="201.0" style="-fx-background-color: #FFE0B2;" text="CUSTOMERS">
+                     <font>
+                        <Font name="Baskerville Old Face" size="24.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="54.0" layoutY="330.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="201.0" style="-fx-background-color: #FFE0B2;" text="EXHIBTS ">
+                     <font>
+                        <Font name="Baskerville Old Face" size="24.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="99.0" layoutY="-2.0" text="menu" textAlignment="CENTER">
+                     <font>
+                        <Font name="Blackadder ITC" size="56.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="54.0" layoutY="584.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="201.0" style="-fx-background-color: #FFE0B2;" text="LOG OUT">
+                     <font>
+                        <Font name="Baskerville Old Face" size="18.0" />
+                     </font>
+                  </Button>
+                  <AnchorPane layoutX="74.0" layoutY="166.0" opacity="0.42" prefHeight="4.0" prefWidth="146.0" style="-fx-background-color: #BF360C;" />
+                  <AnchorPane layoutX="74.0" layoutY="236.0" opacity="0.42" prefHeight="4.0" prefWidth="146.0" style="-fx-background-color: #BF360C;" />
+                  <AnchorPane layoutX="74.0" layoutY="305.0" opacity="0.42" prefHeight="4.0" prefWidth="146.0" style="-fx-background-color: #BF360C;" />
+                  <AnchorPane layoutX="74.0" layoutY="374.0" opacity="0.42" prefHeight="4.0" prefWidth="146.0" style="-fx-background-color: #BF360C;" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <Button layoutX="428.0" layoutY="149.0" mnemonicParsing="false" opacity="0.58" prefHeight="46.0" prefWidth="268.0" style="-fx-background-color: #FFE0B2;" text="salon">
+         <font>
+            <Font name="Bell MT" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="428.0" layoutY="220.0" mnemonicParsing="false" opacity="0.81" prefHeight="46.0" prefWidth="268.0" style="-fx-background-color: #FFE0B2;" text="living room">
+         <font>
+            <Font name="Book Antiqua" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="428.0" layoutY="303.0" mnemonicParsing="false" opacity="0.72" prefHeight="46.0" prefWidth="268.0" style="-fx-background-color: #FFE0B2;" text="bedroom">
+         <font>
+            <Font name="Book Antiqua" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="428.0" layoutY="385.0" mnemonicParsing="false" opacity="0.84" prefHeight="46.0" prefWidth="268.0" style="-fx-background-color: #FFE0B2;" text="garden">
+         <font>
+            <Font name="Book Antiqua" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="428.0" layoutY="458.0" mnemonicParsing="false" opacity="0.78" prefHeight="46.0" prefWidth="268.0" style="-fx-background-color: #FFE0B2;" text="kitchen">
+         <font>
+            <Font name="Book Antiqua" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="428.0" layoutY="531.0" mnemonicParsing="false" opacity="0.86" prefHeight="46.0" prefWidth="268.0" style="-fx-background-color: #FFE0B2;" text="entrance">
+         <font>
+            <Font name="Book Antiqua" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

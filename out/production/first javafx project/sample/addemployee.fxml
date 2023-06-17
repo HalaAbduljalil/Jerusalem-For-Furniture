@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="668.0" prefWidth="535.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.add">
+   <children>
+      <AnchorPane prefHeight="670.0" prefWidth="533.0">
+         <children>
+            <ImageView fitHeight="136.0" fitWidth="147.0" layoutX="385.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Documents/NetBeansProjects/JavaFXApplication1/src/javafxapplication1/user-male-circle.png" />
+               </image>
+            </ImageView>
+            <CheckBox fx:id="CHECK" layoutX="14.0" layoutY="523.0" mnemonicParsing="false" selected="true" text="give admain access" textFill="#832424">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </CheckBox>
+            <TextField fx:id="STREET" layoutX="293.0" layoutY="454.0" prefHeight="41.0" prefWidth="183.0" promptText="street" style="-fx-background-color: transparent; -fx-border-color: #E65100; -fx-border-width: 0px 0px 2px 0px;">
+               <cursor>
+                  <Cursor fx:constant="NONE" />
+               </cursor>
+               <font>
+                  <Font name="Bell MT" size="20.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="CITY" layoutX="15.0" layoutY="454.0" prefHeight="41.0" prefWidth="183.0" promptText="city" style="-fx-background-color: transparent; -fx-border-color: #E65100; -fx-border-width: 0px 0px 2px 0px;">
+               <cursor>
+                  <Cursor fx:constant="NONE" />
+               </cursor>
+               <font>
+                  <Font name="Bell MT" size="20.0" />
+               </font>
+            </TextField>
+            <Label layoutX="200.0" layoutY="434.0" text="Address :">
+               <font>
+                  <Font name="Bell MT" size="22.0" />
+               </font>
+            </Label>
+            <Button layoutX="229.0" layoutY="602.0" mnemonicParsing="false" onAction="#ADD" prefHeight="31.0" prefWidth="74.0" style="-fx-background-color: #E65100;" text="add" textFill="#f8f8f8">
+               <font>
+                  <Font name="Bell MT" size="18.0" />
+               </font>
+            </Button>
+            <Label fx:id="CONFIRMPASSWORD" layoutX="176.0" layoutY="396.0" textFill="#4c33c5">
+               <font>
+                  <Font name="Bell MT" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="RIGESTRATIONMASSAGE" layoutX="146.0" layoutY="556.0" textFill="#4c33c5">
+               <font>
+                  <Font name="Bell MT" size="20.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="PASSWORD" layoutX="24.0" layoutY="346.0" prefHeight="34.0" prefWidth="183.0" promptText=" Password" style="-fx-background-color: transparent; -fx-border-color: #E65100; -fx-border-width: 0px 0px 2px 0px;">
+               <font>
+                  <Font name="Bell MT" size="19.0" />
+               </font>
+            </PasswordField>
+            <PasswordField fx:id="VPASSWORD" layoutX="293.0" layoutY="346.0" prefHeight="34.0" prefWidth="183.0" promptText="confirm password" style="-fx-background-color: transparent; -fx-border-color: #E65100; -fx-border-width: 0px 0px 2px 0px;">
+               <font>
+                  <Font name="Bell MT" size="19.0" />
+               </font>
+            </PasswordField>
+            <Label layoutX="38.0" layoutY="32.0" text="Add New Employee" textFill="#c32222">
+               <font>
+                  <Font name="Bell MT" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="FIRSTNAME" layoutX="28.0" layoutY="106.0" prefHeight="41.0" prefWidth="183.0" promptText="First name" style="-fx-background-color: transparent; -fx-border-color: #E65100; -fx-border-width: 0px 0px 2px 0px;">
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="SALARY" layoutX="28.0" layoutY="258.0" prefHeight="41.0" prefWidth="183.0" promptText="Salary" style="-fx-background-color: transparent; -fx-border-color: #E65100; -fx-border-width: 0px 0px 2px 0px;">
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="EMAIL" layoutX="283.0" layoutY="183.0" prefHeight="41.0" prefWidth="183.0" promptText="Email " style="-fx-background-color: transparent; -fx-border-color: #E65100; -fx-border-width: 0px 0px 2px 0px;">
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="POSITION" layoutX="28.0" layoutY="183.0" prefHeight="41.0" prefWidth="183.0" promptText="Position" style="-fx-background-color: transparent; -fx-border-color: #E65100; -fx-border-width: 0px 0px 2px 0px;">
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="LASTNAME" layoutX="283.0" layoutY="106.0" prefHeight="41.0" prefWidth="183.0" promptText="Last  name" style="-fx-background-color: transparent; -fx-border-color: #E65100; -fx-border-width: 0px 0px 2px 0px;">
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </TextField>
+      <ImageView fx:id="close" fitHeight="30.0" fitWidth="67.0" layoutX="13.0" layoutY="6.0" onMousePressed="#closex" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@close-window(13).png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
